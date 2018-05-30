@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4316" started-at="2018-05-30T12:14:22Z" finished-at="2018-05-30T12:14:27Z">
+  <suite name="Default suite" duration-ms="3344" started-at="2018-05-30T13:14:24Z" finished-at="2018-05-30T13:14:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4316" started-at="2018-05-30T12:14:22Z" finished-at="2018-05-30T12:14:27Z">
-      <class name="get_Request_Sample.Get_Request">
-        <test-method status="PASS" signature="verifyResponse()[pri:0, instance:get_Request_Sample.Get_Request@57baeedf]" name="verifyResponse" duration-ms="4247" started-at="2018-05-30T12:14:22Z" finished-at="2018-05-30T12:14:26Z">
+    <test name="Default test" duration-ms="3344" started-at="2018-05-30T13:14:24Z" finished-at="2018-05-30T13:14:27Z">
+      <class name="post_Request.Post_Request">
+        <test-method status="PASS" signature="Validate()[pri:0, instance:post_Request.Post_Request@57baeedf]" name="Validate" duration-ms="3282" started-at="2018-05-30T13:14:24Z" finished-at="2018-05-30T13:14:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyResponse -->
-      </class> <!-- get_Request_Sample.Get_Request -->
+        </test-method> <!-- Validate -->
+      </class> <!-- post_Request.Post_Request -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

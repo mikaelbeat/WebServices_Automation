@@ -1,20 +1,18 @@
-package get_Request_Sample;
+package get_Response_Validation;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
-
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
-
 import org.testng.annotations.Test;
 
-public class Get_Request {
+public class Validate_Response {
 	
 	 // BaseURI
 	static String baseURI = "https://maps.googleapis.com";
 	
 	@Test
-	public void verifyResponse() {
+	public void Validate() {
 		
 		RestAssured.baseURI = baseURI;
 		
@@ -36,7 +34,9 @@ public class Get_Request {
 						equalTo("Toscanini Restaurant")).
 				and().body("results[0].rating", 
 						equalTo(4)).
-				log().all();
+				and().body("results[0].vicinity", 
+						equalTo("Bulevardi 4, Helsinki")).
+				log().body();
 		
 		System.out.println("Request is executed successfully.");
 	}
