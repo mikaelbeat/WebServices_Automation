@@ -48,5 +48,6 @@
 	<classpathentry kind="lib" path="C:/Users/petri.ryynanen/eclipse-workspace/Rest/Rest-jars/tagsoup-1.2.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/petri.ryynanen/eclipse-workspace/Rest/Rest-jars/uri-template-0.9.jar"/>
 	<classpathentry kind="lib" path="C:/Users/petri.ryynanen/eclipse-workspace/Rest/Rest-jars/xml-path-3.1.0.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
