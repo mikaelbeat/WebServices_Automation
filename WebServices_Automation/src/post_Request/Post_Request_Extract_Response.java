@@ -3,19 +3,20 @@ package post_Request;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.http.Header;
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 import org.testng.annotations.Test;
 
-public class Post_Request2 {
+public class Post_Request_Extract_Response {
 	
 	 // BaseURI
 	static String baseURI = "https://maps.googleapis.com";
 	
 	@Test
-	public void Validate() {
+	public void Post_Place() {
 		
 		RestAssured.baseURI = baseURI;
 		
@@ -43,12 +44,14 @@ Response res =	given().
 					then().
 						assertThat().statusCode(200).
 							and().contentType(ContentType.JSON).
-								log().body().
+//								log().body().
 				
 					extract().response();
-		
-		System.out.println("Request is executed successfully.");
-		System.out.println(res);
-	}// video 5,45
+					String response = res.asString();
+					System.out.println(response);
+					JsonPath jsonResponse = new JsonPath(response);
+					String placeID = jsonResponse.get("place_id");
+					System.out.println("Place id:" + placeID);
+	}
 
 }
