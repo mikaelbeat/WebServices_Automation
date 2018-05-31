@@ -14,7 +14,7 @@ public class Post_Request {
 	static String baseURI = "https://maps.googleapis.com";
 	
 	@Test
-	public void Validate() {
+	public void Add_Place() {
 		
 		RestAssured.baseURI = baseURI;
 		
