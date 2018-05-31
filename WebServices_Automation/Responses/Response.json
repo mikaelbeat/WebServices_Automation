@@ -1,0 +1,47 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 60.1661611,
+               "lng" : 24.9428156
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 60.1675100802915,
+                  "lng" : 24.94416458029151
+               },
+               "southwest" : {
+                  "lat" : 60.16481211970849,
+                  "lng" : 24.9414666197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "aafc9463e0c2b6810ad0160a89db7e859d93d7bc",
+         "name" : "Toscanini Restaurant",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113132711419785326072/photos\"\u003eTorbjörn Svanteson\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAxtIVg7XazXJvPBbyWUZFjQyKWC1ClR49k44JadmkHmAHTGZaibuyjDBpJwobd7oWfbMUTAVo8irKDA5UdQOlDL4R8Jrl8rVhGV8XTNnLDzbRGZSa57ReQ_xQNWNae-WcEhDwmJW_Pas7m2CnGLzZnJaTGhSulRVIerUNLi5Eh0dJOd8O2hkdyg",
+               "width" : 3539
+            }
+         ],
+         "place_id" : "ChIJFdphX8kLkkYRy3ODYQu6-wE",
+         "rating" : 4,
+         "reference" : "CmRRAAAAvvdEgN3cK34xBR145ZlP-daSQh5wSS7wR8WemKOlnE-iYvl_2wWFY0iH5QfbqyEKZK5LyPrjTxZfvW-kltVPJ-qVe8brMS95bob4L7UG9yHGIrQG_2G4GN1dfsQfwR0KEhABQS_P_WhB9mP2Iq4owc-OGhR4nrB8YT8QorbR-k9VS0Wia_3RUQ",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Bulevardi 4, Helsinki"
+      }
+   ],
+   "status" : "OK"
+}
