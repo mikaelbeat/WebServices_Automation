@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3780" started-at="2018-05-31T07:29:29Z" finished-at="2018-05-31T07:29:33Z">
+  <suite name="Default suite" duration-ms="4856" started-at="2018-05-31T11:31:54Z" finished-at="2018-05-31T11:31:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3780" started-at="2018-05-31T07:29:29Z" finished-at="2018-05-31T07:29:33Z">
-      <class name="delete_Request.Post_And_Delete_Requests">
-        <test-method status="PASS" signature="Add_Place()[pri:0, instance:delete_Request.Post_And_Delete_Requests@57baeedf]" name="Add_Place" duration-ms="3331" started-at="2018-05-31T07:29:29Z" finished-at="2018-05-31T07:29:33Z">
+    <test name="Default test" duration-ms="4856" started-at="2018-05-31T11:31:54Z" finished-at="2018-05-31T11:31:59Z">
+      <class name="post_Request.Parsing_JSON">
+        <test-method status="PASS" signature="Validate()[pri:0, instance:post_Request.Parsing_JSON@57baeedf]" name="Validate" duration-ms="4789" started-at="2018-05-31T11:31:54Z" finished-at="2018-05-31T11:31:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Add_Place -->
-        <test-method status="PASS" signature="Delete_Place()[pri:0, instance:delete_Request.Post_And_Delete_Requests@57baeedf]" name="Delete_Place" duration-ms="383" started-at="2018-05-31T07:29:33Z" finished-at="2018-05-31T07:29:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Delete_Place -->
-      </class> <!-- delete_Request.Post_And_Delete_Requests -->
+        </test-method> <!-- Validate -->
+      </class> <!-- post_Request.Parsing_JSON -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

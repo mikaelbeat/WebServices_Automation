@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="get_Request_Sample.Get_Request">
+      <class name="rest_Using_XML.Post_XML_Request">
         <methods>
-          <include name="verifyResponse"/>
+          <include name="Add_Place"/>
         </methods>
-      </class> <!-- get_Request_Sample.Get_Request -->
+      </class> <!-- rest_Using_XML.Post_XML_Request -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
