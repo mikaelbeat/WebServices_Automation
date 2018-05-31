@@ -1,4 +1,4 @@
-package post_Request;
+package parsing_JSON;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
