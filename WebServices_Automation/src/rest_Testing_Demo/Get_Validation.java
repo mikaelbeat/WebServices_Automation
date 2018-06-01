@@ -7,6 +7,7 @@ import io.restassured.response.Response;
 import org.apache.commons.*;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
+import static org.testng.Assert.assertEquals;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -28,7 +29,7 @@ public class Get_Validation {
 	String response = null;
 	
 	// Define file where response is saved
-	String response_file = "C:\\Users\\petri.ryynanen\\git\\WebServices_Automation\\WebServices_Automation\\Responses\\Response.json";
+	String response_file = "C:\\Users\\petri.ryynanen\\git\\WebServices_Automation\\WebServices_Automation\\Responses\\Get_Validation_Response.json";
 	File file = new File(response_file);
 	
 	// Define file where expected response is located
@@ -60,7 +61,8 @@ public class Get_Validation {
 				JsonPath jsonResponse = new JsonPath(response);
 				fw.write(response);
 				fw.close();
-				Compare_Results();
+//				Compare_Results();
+				assertEquals(response_file, expected_file);
 
 	}
 	
